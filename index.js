@@ -12,7 +12,7 @@ const aiRouter = require('./src/routes/aiChatting');
 const videoRouter = require('./src/routes/videoCreator');
 
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['http://localhost:5173', 'code-hub-frontend-orcin.vercel.app'],
     credentials: true
 }));
 
